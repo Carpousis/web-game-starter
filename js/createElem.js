@@ -1,4 +1,4 @@
-const createElem = (t, p, html, cla)=>{
+const createElem = (t, p, html, cla) => {
 	const elem = document.createElement(t);
 	elem.innerHTML = html;
 	elem.classList.add(cla);
